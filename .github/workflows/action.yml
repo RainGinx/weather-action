@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Shanghai Weather Report (${{env.REPORT_DATE}})
           body: file://result.html
-          to: caihongbin@rainginx.onmicrosoft.com
+          to: rainginx@gmail.com
           from: GitHub Actions
           content_type: text/html
